@@ -27,7 +27,5 @@ class MainActivity : AppCompatActivity() {
                 displayTextView.text = "Hello, ${name}"
             }
         }
-
-
     }
 }
