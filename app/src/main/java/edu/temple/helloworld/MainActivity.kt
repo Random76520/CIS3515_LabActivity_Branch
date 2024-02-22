@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             if (name.text.isEmpty()) {
                 displayTextView.text = "No entry! Please try again!"
             } else {
-                displayTextView.text = "Hello, ${name}"
+                displayTextView.text = "Hello, ${name.text}"
             }
         }
     }
